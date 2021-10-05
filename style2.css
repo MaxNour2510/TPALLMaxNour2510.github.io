@@ -1,0 +1,72 @@
+.page {
+width: 700px;
+height: 1000px;
+margin: auto;
+border: 2px solid blueviolet;
+border-radius: 2px;
+box-shadow: 2px;
+font-family: verdana;
+}
+
+.entete {
+width: 650px;
+height: 200px;
+border: 2px solid red;
+border-radius: 2px;
+margin: auto;
+margin-top: 25px;
+}
+
+.photo {
+float: right;
+border: 2px solid purple;
+width: 100px;
+height: 100px;
+margin-top: 50px;
+margin-right: 25px;
+}
+
+.infos {
+float: left;
+border: 2px solid yellow;
+width: 200px;
+height: 110px;
+margin-top: 50px;
+margin-left: 25px;
+}
+
+.section {
+width: 650px;
+height: 175px;
+border: 2px solid green;
+border-radius: 2px;
+margin: auto;
+margin-top: 10px;
+}
+
+.date {
+float: left;
+border: 2px solid orange;
+width: 100px;
+height: 100px;
+margin-left: 25px;	
+}
+
+.texte {
+float: right;
+border: 2px solid pink;
+width: 450px;
+height: 100px;
+margin-right: 25px;	
+}
+ 
+span.mots {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
