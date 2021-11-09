@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+var note1 = prompt("donner une première note");
+var note2 = prompt("donner une deuxième note");
+var note3 = prompt("donner une troisième note");
+
+var somme = note1*2 +note2*2 +note3*3;
+var moyenne = somme/7;
+
+
+
+ if (moyenne<10)
+
+ 	{alert("L'élève n'est pas admit")
+ document.bgColor="red";}
+
+ else if (moyenne>10)	
+
+ 	{alert("L'élève est admit") 
+document.bgColor="green";}
+
+ else (moyenne<8)
+
+    {alert("L'élève doit aller en rattrapage")
+document.bgColor="orange";}
+
+
+
+document.write("<table border=2> <tr>");
+
+document.write("<td>"+"<h1>"+"voila la somme des notes : "+somme+"<br>"+"</h1>"+"</td>")
+document.write("<td>"+"<h2>"+"voila votre moyenne : "+moyenne+"</h2>"+"</td>");
+
+document.write("</tr> </table>");
+
+</script>
+</body>
+</html>
