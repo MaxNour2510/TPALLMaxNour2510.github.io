@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+function calculate(){
+		var x = parseInt(document.getElementById("prix").value);
+		var y = parseInt(document.getElementById("quantite").value);
+        var z = parseInt(document.getElementById("resultat").value);
+
+        var a = parseInt(document.getElementById("prix1").value);
+		var b = parseInt(document.getElementById("quantite1").value);
+        var c = parseInt(document.getElementById("resultat1").value);
+
+        var e = parseInt(document.getElementById("prix2").value);
+		var f = parseInt(document.getElementById("quantite2").value);
+        var g = parseInt(document.getElementById("resultat2").value);
+
+		document.getElementById("resultat").value=(x*y);
+		document.getElementById("resultat1").value=(a*b);
+		document.getElementById("resultat2").value=(e*f);
+		document.getElementById("total").value=(x*y+a*b+e*f);
+	}
+
+
+
+
+</script>
+<h1 align="center">Facture en Javascript</h1>
+<form>
+<table border="2px" align="center">
+	
+<tr>
+	<td>Article :</td>
+	<td>Prix :</td>
+	<td>Quantit :</td>
+	<td>Résultat :</td>
+</tr>
+
+<tr>
+	<td><input type="text" name="" placeholder="Saisir la désignation"></td>
+	<td><input type="text" id="prix" name="prix" value="0"></td>
+	<td><input type="text" id="quantite" name="quantite" value="0"></td>
+	<td><input type="text" id="resultat" name="resultat" value="0"></td>
+</tr>
+
+<tr>
+	<td><input type="text" name="" placeholder="Saisir la désignation"></td>
+	<td><input type="text" id="prix1" name="prix1" value="0"></td>
+	<td><input type="text" id="quantite1" name="quantite1" value="0"></td>
+	<td><input type="text" id="resultat1" name="resultat1" value="0"></td>
+</tr>
+
+<tr>
+	<td><input type="text" name="" placeholder="Saisir la désignation"></td>
+	<td><input type="text" id="prix2" name="prix2" value="0"></td>
+	<td><input type="text" id="quantite2" name="quantite2" value="0"></td>
+	<td><input type="text" id="resultat2" name="resultat2" value="0"></td>
+</tr>
+
+<tr>
+	<td></td>
+	<td><input onclick="calculate()" type="reset" value="Réinitialiser"></td>
+	<td><input onclick="calculate()" type="button" value="Calculer"></td>
+	<td><input type="text" id="total" name="total" value="0"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
